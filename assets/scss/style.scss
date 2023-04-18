@@ -295,7 +295,6 @@ main {
     .breadcrumb-title {
         font-size: 40px;
         color: #fff;
-        font-family: "K2D Bold";
         margin-bottom: 10px;
         text-transform: uppercase;
     }
@@ -304,7 +303,6 @@ main {
             position: relative;
             display: inline-block;
             margin-left: 25px;
-            font-family: "Roboto Medium";
             text-transform: capitalize;
             color: #fff;
             a {
@@ -373,7 +371,6 @@ main {
                 li {
                     display: inline-block;
                     margin-right: 15px;
-                    font-family: "Roboto Medium";
                     position: relative;
                     color: $second-color;
                     a {
@@ -416,7 +413,7 @@ main {
     text-transform: capitalize;
     position: relative;
     border-radius: 10px;
-    font-family: "Roboto Medium";
+    font-weight: 500;
     cursor: pointer;
     text-align: center;
     overflow: hidden;
@@ -448,7 +445,7 @@ main {
         }
     }
 }
-// -----pagination----- //
+// -----Pagination----- //
 .pagination-area {
     .pagination {
         display: flex;
@@ -484,5 +481,49 @@ main {
     .pagination-showing {
         text-align: center;
         margin-top: 20px;
+    }
+}
+// -----Blog detail----- //
+.single {
+    .site-main {
+        .section-blog-detail {
+            margin-top: 50px;
+            @media screen and (max-width: 767px) {
+                margin-top: 30px;
+            }
+            .blog-title {
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                color: $primary-color;
+                @media screen and (max-width: 767px) {
+                    font-size: 28px;
+                }
+            }
+            p {
+                font-size: 18px;
+                margin-bottom: 18px;
+                color: #000;
+                @media screen and (max-width: 767px) {
+                    font-size: 16px;
+                }
+            }
+            h3 {
+                font-size: 20px;
+                font-weight: 500;
+                color: $primary-color;
+                @media screen and (max-width: 767px) {
+                    font-size: 18px;
+                }
+            }
+            ul {
+                margin-bottom: 18px;
+                font-size: 18px;
+                color: #000;
+                @media screen and (max-width: 767px) {
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }
