@@ -397,4 +397,27 @@ main .category .category-item {
       .single .site-main .section-blog-detail ul {
         font-size: 16px; } }
 
+.section-contact {
+  padding: 100px 0; }
+  @media screen and (max-width: 991px) {
+    .section-contact {
+      padding: 50px 0; } }
+  .section-contact .box-form .form-group {
+    margin-bottom: 16px; }
+  @media screen and (max-width: 991px) {
+    .section-contact .box-info {
+      margin-top: 30px; } }
+  .section-contact .box-info h2 {
+    font-size: 24px;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #009c31; }
+    @media screen and (max-width: 767px) {
+      .section-contact .box-info h2 {
+        font-size: 20px; } }
+  .section-contact .box-info .box-map {
+    width: 100%; }
+    .section-contact .box-info .box-map iframe {
+      width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
