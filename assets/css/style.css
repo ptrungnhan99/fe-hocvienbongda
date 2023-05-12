@@ -264,7 +264,8 @@ main .category .category-item {
       min-height: 250px;
       max-height: 250px;
       width: 100%;
-      object-fit: cover; }
+      object-fit: cover;
+      transition: all 0.5s ease-in-out; }
   .blog-item .blog-item-info {
     padding: 15px; }
     .blog-item .blog-item-info .blog-title {
@@ -419,5 +420,59 @@ main .category .category-item {
     width: 100%; }
     .section-contact .box-info .box-map iframe {
       width: 100%; }
+
+.navigation-link {
+  padding: 30px 0; }
+  .navigation-link .list-navigation {
+    display: flex; }
+    .navigation-link .list-navigation li a {
+      font-size: 14px;
+      color: #000;
+      padding: 5px 10px;
+      margin: 0 5px;
+      -webkit-box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px; }
+      .navigation-link .list-navigation li a.active {
+        background: -moz-linear-gradient(540deg, #ffffff 0, #f8c24f 100%);
+        background: -webkit-gradient(linear, 540deg, color-stop(0, FFFFFF), color-stop(100%, F8C24F));
+        background: -webkit-linear-gradient(540deg, #ffffff 0, #f8c24f 100%);
+        background: -o-linear-gradient(540deg, #ffffff 0, #f8c24f 100%);
+        background: -ms-linear-gradient(540deg, #ffffff 0, #f8c24f 100%);
+        background: linear-gradient(540deg, #ffffff 0, #f8c24f 100%); }
+
+.section-about {
+  padding-bottom: 50px; }
+  .section-about .box-content p {
+    margin-bottom: 10px; }
+
+.section-course {
+  padding-bottom: 50px; }
+
+.course-item {
+  margin-bottom: 25px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.05); }
+  .course-item .course-item-img {
+    overflow: hidden;
+    border-radius: 15px; }
+    .course-item .course-item-img img {
+      border-radius: 15px;
+      min-height: 300px;
+      max-height: 300px;
+      width: 100%;
+      object-fit: cover; }
+  .course-item .course-item-info {
+    padding: 15px 0 0; }
+    .course-item .course-item-info .course-title {
+      font-size: 16px;
+      margin-bottom: 0;
+      text-transform: capitalize;
+      text-align: center;
+      color: #009c31; }
 
 /*# sourceMappingURL=style.css.map */
