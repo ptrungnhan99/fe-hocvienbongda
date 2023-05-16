@@ -448,7 +448,8 @@ main .category .category-item {
   .section-about .box-content p {
     margin-bottom: 10px; }
 
-.section-course {
+.section-course,
+.section-media {
   padding-bottom: 50px; }
 
 .course-item {
@@ -469,6 +470,44 @@ main .category .category-item {
   .course-item .course-item-info {
     padding: 15px 0 0; }
     .course-item .course-item-info .course-title {
+      font-size: 16px;
+      margin-bottom: 0;
+      text-transform: capitalize;
+      text-align: center;
+      color: #009c31; }
+
+.media-item {
+  margin-bottom: 25px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.05); }
+  .media-item .media-item-img {
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative; }
+    .media-item .media-item-img img {
+      border-radius: 15px;
+      min-height: 300px;
+      max-height: 300px;
+      width: 100%;
+      object-fit: cover; }
+    .media-item .media-item-img .overplay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .media-item .media-item-img .overplay i {
+        font-size: 50px;
+        color: #fff; }
+  .media-item .media-item-info {
+    padding: 15px 0 0; }
+    .media-item .media-item-info .media-title {
       font-size: 16px;
       margin-bottom: 0;
       text-transform: capitalize;

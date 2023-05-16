@@ -597,7 +597,8 @@ main {
     }
 }
 // -----Course----- //
-.section-course {
+.section-course,
+.section-media {
     padding-bottom: 50px;
 }
 .course-item {
@@ -620,6 +621,50 @@ main {
     .course-item-info {
         padding: 15px 0 0;
         .course-title {
+            font-size: 16px;
+            margin-bottom: 0;
+            text-transform: capitalize;
+            text-align: center;
+            color: $primary-color;
+        }
+    }
+}
+.media-item {
+    margin-bottom: 25px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.05);
+    .media-item-img {
+        overflow: hidden;
+        border-radius: 15px;
+        position: relative;
+        img {
+            border-radius: 15px;
+            min-height: 300px;
+            max-height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .overplay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+                font-size: 50px;
+                color: #fff;
+            }
+        }
+    }
+    .media-item-info {
+        padding: 15px 0 0;
+        .media-title {
             font-size: 16px;
             margin-bottom: 0;
             text-transform: capitalize;
