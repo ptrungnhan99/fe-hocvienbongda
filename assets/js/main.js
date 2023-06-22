@@ -8,6 +8,9 @@ $(document).ready(function () {
         topMenu.toggleClass("active");
 
     });
+    $("#top-menu .btn-arrow").click(function () {
+        $(this).next().toggle();
+    });
     // -----Popup Gallery Image-----//
     $('.image-popup').magnificPopup({
         type: 'image',
