@@ -51,4 +51,15 @@ $(document).ready(function () {
             enabled: true
         }
     });
+    // -----Slider About-----//
+    $('.slider-about').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        items: 1,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true
+    });
 });
