@@ -106,7 +106,7 @@ img {
           display: none; } }
       .site-header .header-main .main-navigation .box-wrapper .site-logo-mb {
         text-decoration: none;
-        color: #f8c24f;
+        color: #ffc61c;
         font-size: 30px;
         font-family: "Montserrat Bold"; }
         @media screen and (min-width: 992px) {
@@ -120,7 +120,7 @@ img {
         font-size: 24px; }
     .site-header .header-main .main-navigation .site-logo-desk {
       text-decoration: none;
-      color: #f8c24f;
+      color: #ffc61c;
       font-size: 40px;
       font-family: "Montserrat Bold"; }
       @media screen and (max-width: 992px) {
@@ -145,7 +145,7 @@ img {
           text-transform: uppercase;
           font-family: "Montserrat Medium"; }
           .site-header .header-main .main-navigation #top-menu li a:hover {
-            color: #f8c24f; }
+            color: #ffc61c; }
         .site-header .header-main .main-navigation #top-menu li .btn-arrow {
           color: #ffffff;
           margin-left: 4px; }
@@ -181,7 +181,7 @@ img {
               text-transform: capitalize;
               font-family: "Montserrat Medium"; }
               .site-header .header-main .main-navigation #top-menu li .sub-menu li a:hover {
-                color: #f8c24f; }
+                color: #ffc61c; }
           @media screen and (max-width: 991px) {
             .site-header .header-main .main-navigation #top-menu li .sub-menu {
               position: static;
@@ -258,7 +258,7 @@ img {
     .site-breadcrumb .breadcrumb-menu li:first-child {
       margin-left: 0; }
     .site-breadcrumb .breadcrumb-menu li.active {
-      color: #f8c24f; }
+      color: #ffc61c; }
       .site-breadcrumb .breadcrumb-menu li.active::before {
         display: none; }
 
@@ -284,10 +284,10 @@ img {
     text-align: center;
     transition: all 0.5s ease-in-out; }
     .pagination-area .pagination .page-item .page-link:hover {
-      background: #f8c24f;
+      background: #ffc61c;
       color: #fff; }
   .pagination-area .pagination .page-item.active .page-link {
-    background: #f8c24f;
+    background: #ffc61c;
     color: #fff; }
 .pagination-area .pagination-showing {
   text-align: center;
@@ -309,7 +309,11 @@ img {
     font-family: "Montserrat Bold"; }
     .blog-item .content .title a {
       color: #4d4d4d;
-      text-decoration: none; }
+      text-decoration: none;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      .blog-item .content .title a:hover {
+        color: #ffc61c; }
   .blog-item .content p {
     font-size: 14px;
     font-family: "Montserrat Regular";
@@ -320,7 +324,12 @@ img {
     font-family: "Montserrat Bold";
     color: #686868;
     border-bottom: 1px solid #686868;
-    padding-bottom: 4px; }
+    padding-bottom: 4px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .blog-item .content .read-more:hover {
+      color: #ffc61c;
+      border-color: #ffc61c; }
 
 @media screen and (max-width: 991px) {
   main.homepage {
@@ -355,7 +364,7 @@ main.homepage .section-banner .slider-banner-home .owl-stage-outer .owl-stage .o
       text-transform: uppercase;
       margin-bottom: 18px; }
       main.homepage .section-banner .slider-banner-home .owl-stage-outer .owl-stage .owl-item .banner-item .banner-content-main .banner-content h1 span {
-        color: #f8c24f; }
+        color: #ffc61c; }
       @media screen and (max-width: 1600px) {
         main.homepage .section-banner .slider-banner-home .owl-stage-outer .owl-stage .owl-item .banner-item .banner-content-main .banner-content h1 {
           font-size: 60px; } }
@@ -448,7 +457,7 @@ main.homepage .section-about {
       color: #4d4d4d;
       text-transform: uppercase; }
       main.homepage .section-about .about-content h2 span {
-        color: #f8c24f; }
+        color: #ffc61c; }
     main.homepage .section-about .about-content p {
       font-size: 16px;
       font-family: "Montserrat Regular";
@@ -469,7 +478,7 @@ main.homepage .section-about {
       -webkit-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s; }
       main.homepage .section-about .about-content a:hover {
-        background: #f8c24f; }
+        background: #ffc61c; }
 main.homepage .section-gallery {
   position: relative;
   background-position: center center;
@@ -576,7 +585,7 @@ main.homepage .section-blog {
     .sidebar .single-sidebar .title::before {
       width: 40px;
       height: 2px;
-      background-color: #f8c24f;
+      background-color: #ffc61c;
       content: "";
       position: absolute;
       left: 0;
@@ -614,7 +623,7 @@ main.homepage .section-blog {
         -webkit-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
         .sidebar .single-sidebar .categories li a:hover {
-          color: #f8c24f; }
+          color: #ffc61c; }
   .sidebar .single-sidebar .lasted-post .post-item {
     display: flex;
     margin-bottom: 20px; }
@@ -700,6 +709,73 @@ main.blog-single .section-blog {
       font-family: "Montserrat Bold";
       text-transform: uppercase;
       margin-bottom: 20px; }
+
+.section-contact {
+  padding: 100px 0; }
+  @media screen and (max-width: 991px) {
+    .section-contact {
+      padding: 50px 0; } }
+  @media screen and (max-width: 767px) {
+    .section-contact {
+      padding: 30px 0; } }
+  .section-contact #contact-map {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 450px; }
+    .section-contact #contact-map iframe {
+      width: 100%;
+      height: 100%;
+      display: block; }
+    @media screen and (max-width: 767px) {
+      .section-contact #contact-map {
+        margin-bottom: 30px; } }
+  .section-contact .contact-info h4 {
+    color: #4d4d4d;
+    font-family: "Montserrat Bold";
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .section-contact .contact-info p {
+    font-family: "Montserrat Regular";
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 16px; }
+    .section-contact .contact-info p span {
+      text-transform: uppercase;
+      font-family: "Montserrat SemiBold";
+      font-size: 18px;
+      color: #4d4d4d;
+      margin-right: 10px; }
+    .section-contact .contact-info p a {
+      text-decoration: none;
+      color: #444; }
+  @media screen and (max-width: 767px) {
+    .section-contact .contact-info {
+      margin-bottom: 30px; } }
+  .section-contact .contact-form h4 {
+    color: #4d4d4d;
+    font-family: "Montserrat Bold";
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .section-contact .contact-form .form-group {
+    margin-bottom: 24px; }
+    .section-contact .contact-form .form-group .form-control {
+      border-radius: unset !important; }
+    .section-contact .contact-form .form-group .btn-submit {
+      border: 1px solid #ddd;
+      height: 44px;
+      padding: 10px 40px 8px;
+      line-height: 24px;
+      color: #444;
+      text-transform: uppercase;
+      background-color: transparent;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      .section-contact .contact-form .form-group .btn-submit:hover {
+        background: #ffc61c;
+        color: #fff;
+        border: none; }
 
 @keyframes slideDown {
   0% {

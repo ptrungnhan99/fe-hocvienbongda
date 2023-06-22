@@ -73,7 +73,7 @@ img {
       .site-header .header-main .main-navigation .box-wrapper .toggle-menu {
         border: none;
         outline: none;
-        background: #f8c24f;
+        background: #ffc61c;
         color: #fff;
         font-size: 24px; }
       .site-header .header-main .main-navigation .box-wrapper .social-link-mb ul {
@@ -104,7 +104,7 @@ img {
           height: 0;
           border-left: 15px solid transparent;
           border-right: 15px solid transparent;
-          border-top: 14px solid #f8c24f;
+          border-top: 14px solid #ffc61c;
           position: absolute;
           bottom: -25%;
           left: 0;
@@ -112,7 +112,7 @@ img {
           margin: 0 auto;
           z-index: 99; }
         .site-header .header-main .main-navigation #top-menu li a:hover {
-          background-color: #f8c24f; }
+          background-color: #ffc61c; }
           @media screen and (min-width: 992px) {
             .site-header .header-main .main-navigation #top-menu li a:hover::before {
               display: block; } }
@@ -245,7 +245,7 @@ main .category .category-item {
     .site-breadcrumb .breadcrumb-menu li:first-child {
       margin-left: 0; }
     .site-breadcrumb .breadcrumb-menu li.active {
-      color: #f8c24f; }
+      color: #ffc61c; }
       .site-breadcrumb .breadcrumb-menu li.active::before {
         display: none; }
 
@@ -275,7 +275,7 @@ main .category .category-item {
       .blog-item .blog-item-info .blog-title a {
         color: #009c31; }
         .blog-item .blog-item-info .blog-title a:hover {
-          color: #f8c24f; }
+          color: #ffc61c; }
     .blog-item .blog-item-info .blog-item-meta {
       margin-bottom: 14px;
       border-bottom: 1px solid #e6e8eb;
@@ -284,9 +284,9 @@ main .category .category-item {
         display: inline-block;
         margin-right: 15px;
         position: relative;
-        color: #f8c24f; }
+        color: #ffc61c; }
         .blog-item .blog-item-info .blog-item-meta ul li a {
-          color: #f8c24f; }
+          color: #ffc61c; }
           .blog-item .blog-item-info .blog-item-meta ul li a:hover {
             color: #009c31; }
           .blog-item .blog-item-info .blog-item-meta ul li a i {
@@ -323,7 +323,7 @@ main .category .category-item {
     content: "";
     height: 450px;
     width: 450px;
-    background: #f8c24f;
+    background: #ffc61c;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -354,10 +354,10 @@ main .category .category-item {
     text-align: center;
     transition: all 0.5s ease-in-out; }
     .pagination-area .pagination .page-item .page-link:hover {
-      background: #f8c24f;
+      background: #ffc61c;
       color: #fff; }
   .pagination-area .pagination .page-item.active .page-link {
-    background: #f8c24f;
+    background: #ffc61c;
     color: #fff; }
 .pagination-area .pagination-showing {
   text-align: center;
