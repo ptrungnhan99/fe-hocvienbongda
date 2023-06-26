@@ -568,6 +568,70 @@ main.homepage .section-blog {
       @media screen and (max-width: 767px) {
         main.homepage .section-blog .box-heading .title {
           font-size: 30px; } }
+main.homepage .section-course {
+  padding: 100px 0;
+  background: #f9f9f9; }
+  @media screen and (max-width: 991px) {
+    main.homepage .section-course {
+      padding: 50px 0; } }
+  @media screen and (max-width: 767px) {
+    main.homepage .section-course {
+      padding: 30px 0; } }
+  main.homepage .section-course .box-heading {
+    margin-bottom: 50px;
+    text-align: center; }
+    @media screen and (max-width: 767px) {
+      main.homepage .section-course .box-heading {
+        margin-bottom: 30px; } }
+    main.homepage .section-course .box-heading .title {
+      color: #4d4d4d;
+      font-family: "Montserrat Bold";
+      font-size: 34px;
+      text-transform: uppercase;
+      margin-bottom: 0; }
+      @media screen and (max-width: 767px) {
+        main.homepage .section-course .box-heading .title {
+          font-size: 30px; } }
+  @media screen and (max-width: 767px) {
+    main.homepage .section-course .box-content {
+      overflow-x: scroll; } }
+  main.homepage .section-course .box-content table {
+    width: 100%;
+    border-collapse: collapse; }
+    main.homepage .section-course .box-content table tr:nth-child(2n + 1) {
+      background-color: #ebebeb; }
+    main.homepage .section-course .box-content table tr:nth-child(2n) td {
+      background-color: #f4f4f4; }
+    main.homepage .section-course .box-content table tr td {
+      border: 1px solid #e3e3e3;
+      min-width: 120px;
+      padding: 20px 30px; }
+      main.homepage .section-course .box-content table tr td:first-child {
+        min-width: 260px; }
+        main.homepage .section-course .box-content table tr td:first-child p {
+          color: #ffc61c; }
+      @media screen and (max-width: 767px) {
+        main.homepage .section-course .box-content table tr td:nth-child(3) {
+          display: none; } }
+      main.homepage .section-course .box-content table tr td h4 {
+        font-size: 30px;
+        color: #444;
+        font-family: "Montserrat Bold";
+        margin-bottom: 0; }
+      main.homepage .section-course .box-content table tr td p {
+        font-size: 14px;
+        color: #444;
+        font-family: "Montserrat Medium";
+        margin-bottom: 0; }
+      main.homepage .section-course .box-content table tr td .sc_button {
+        display: inline-block;
+        width: 140px;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        text-align: center;
+        font-family: "Montserrat Bold";
+        color: #444;
+        background-color: #ffc61c; }
 
 .sidebar .single-sidebar {
   padding-left: 30px;
@@ -844,6 +908,47 @@ main.blog-single .section-blog {
         .section-intro .box-content .title {
           font-size: 24px; } }
     .section-intro .box-content .text-desc {
+      color: #848992;
+      font-family: "Montserrat Regular";
+      margin-bottom: 0; }
+
+.course-detail .section-intro {
+  background: #f4f4f4; }
+  .course-detail .section-intro .box-content {
+    padding: 60px;
+    height: 100%;
+    background: #ffffff; }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+      .course-detail .section-intro .box-content {
+        padding: 40px; } }
+    @media screen and (max-width: 767px) {
+      .course-detail .section-intro .box-content {
+        padding: 30px; } }
+    .course-detail .section-intro .box-content .tag-line {
+      font-size: 20px;
+      color: #ffc61c;
+      margin-bottom: 4px;
+      font-family: "Montserrat Bold";
+      text-transform: uppercase; }
+      @media screen and (max-width: 767px) {
+        .course-detail .section-intro .box-content .tag-line {
+          font-size: 18px; } }
+    .course-detail .section-intro .box-content .title {
+      font-size: 40px;
+      color: #444;
+      margin-bottom: 20px;
+      font-family: "Montserrat Bold";
+      text-transform: uppercase; }
+      @media screen and (max-width: 1399px) {
+        .course-detail .section-intro .box-content .title {
+          font-size: 36px; } }
+      @media screen and (min-width: 992px) and (max-width: 1199px) {
+        .course-detail .section-intro .box-content .title {
+          font-size: 30px; } }
+      @media screen and (max-width: 767px) {
+        .course-detail .section-intro .box-content .title {
+          font-size: 24px; } }
+    .course-detail .section-intro .box-content .text-desc {
       color: #848992;
       font-family: "Montserrat Regular";
       margin-bottom: 0; }
